@@ -1,0 +1,19 @@
+{
+  "name": "hellfire-ledger-backend",
+  "version": "1.0.0",
+  "description": "Hellfire Party Ledger Resolver - Backend API",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "dev": "nodemon api.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "papaparse": "^5.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
